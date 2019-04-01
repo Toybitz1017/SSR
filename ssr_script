@@ -3,15 +3,17 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #=================================================================#
 #                                                                 #
-#                   Mod. by TOYBITZ CRUZ                          #
+#                       BY: TOYBITZ CRUZ                          #
 #                                                                 #
 #=================================================================#
 
 clear
 echo
 echo "#############################################################"
-echo "#         One click Install ShadowsocksR Server             #"
-echo "#                Mod. by TOYBITZ CRUZ                       #"
+echo "#                                                           #"
+echo "#          One click Install ShadowsocksR Server            #"
+echo "#                 MOD. BY: TOYBITZ CRUZ                     #"
+echo "#                                                           #"
 echo "#############################################################"
 echo
 
@@ -41,6 +43,7 @@ xchacha20
 xsalsa20
 rc4-md5
 )
+echo select this following number
 echo 16
 # Reference URL:
 # https://github.com/shadowsocksr-rm/shadowsocks-rss/blob/master/ssr.md
@@ -386,15 +389,7 @@ config_shadowsocks(){
     "server_port":${shadowsocksport},
     "local_address":"127.0.0.1",
     "local_port":1080,
-    "port_password":{
-		"32801": "toybitz1017"
-		"443": "password1",
-        "1194": "password2",
-		"8001": "password3"
-		"8002": "password4"
-		"8003": "password5"
-		"8004": "password6"
-	},
+    "password":"${shadowsockspwd}",
     "timeout":120,
     "method":"${shadowsockscipher}",
     "protocol":"${shadowsockprotocol}",
