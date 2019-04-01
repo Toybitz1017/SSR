@@ -199,7 +199,6 @@ pre_install(){
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
     echo "---------------------------"
-    echo "select 16, 1, 6"
     echo
     # Set ShadowsocksR config port
     while true
@@ -395,7 +394,7 @@ config_shadowsocks(){
     "obfs_param":"",
     "redirect":"",
     "dns_ipv6":false,
-    "fast_open":true,
+    "fast_open":false,
     "workers":1
 }
 EOF
