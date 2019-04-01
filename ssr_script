@@ -10,7 +10,8 @@ export PATH
 clear
 echo
 echo "#############################################################"
-echo "# One click Install ShadowsocksR Server                     #"
+echo "#         One click Install ShadowsocksR Server             #"
+echo "#                Mod. by TOYBITZ CRUZ                       #"
 echo "#############################################################"
 echo
 
