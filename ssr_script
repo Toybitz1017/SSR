@@ -394,7 +394,7 @@ config_shadowsocks(){
     "obfs_param":"",
     "redirect":"",
     "dns_ipv6":false,
-    "fast_open":false,
+    "fast_open":true,
     "workers":1
 }
 EOF
