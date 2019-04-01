@@ -199,9 +199,9 @@ pre_install(){
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
     echo "---------------------------"
+    echo "select 16, 1, 6"
     echo
     # Set ShadowsocksR config port
-    echo "select 16, 1, 6"
     while true
     do
     dport=$(shuf -i 9000-19999 -n 1)
