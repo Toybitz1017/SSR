@@ -193,7 +193,7 @@ pre_install(){
     fi
     # Set ShadowsocksR config password
     echo "Please enter password for ShadowsocksR:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
+    read -p "(Default password: toybitzcruz):" shadowsockspwd
     [ -z "${shadowsockspwd}" ] && shadowsockspwd="toybitzcruz"
     echo
     echo "---------------------------"
@@ -201,7 +201,7 @@ pre_install(){
     echo "---------------------------"
     echo
     # Set ShadowsocksR config port
-    echo "select 16, 1, 6
+    echo "select 16, 1, 6"
     while true
     do
     dport=$(shuf -i 9000-19999 -n 1)
